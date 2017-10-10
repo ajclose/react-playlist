@@ -58,7 +58,6 @@ export default class PlayListForm extends Component {
 
   render() {
     return (
-      <div className="row">
         <div className="col-6">
           <form onSubmit={this.addToList}>
             <div className="form-group">
@@ -81,7 +80,6 @@ export default class PlayListForm extends Component {
           </form>
 
         </div>
-      </div>
     )
   }
 }
