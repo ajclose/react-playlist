@@ -42,3 +42,16 @@ form {
   color: white;
   padding: 20px;
 }
+
+.song {
+  text-align: left;
+  background-color: lightblue;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.label {
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px black;
+}

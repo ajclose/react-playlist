@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import PlayListItem from './playlistitem'
+
 export default class PlayList extends Component {
   constructor(props) {
     super(props)
@@ -37,6 +39,7 @@ export default class PlayList extends Component {
           <form onSubmit={this.fetchData}>
             <button type="submit" className="btn btn-success">Update List</button>
           </form>
+          <PlayListItem songs={this.state.songs} />
         </div>
     )
   }
